@@ -23,7 +23,7 @@ body {
     align-content: center;
     justify-content: center;
     z-index: 30;
-    translate: 0 -22.5rem;
+    translate: 0 18.5rem;
 }
 
 .ascii {
@@ -43,12 +43,18 @@ body {
 }
 
 #row1 {
-
     font-size: 2em;
     color: rgb(70, 70, 70);
     line-height: 1.5em;
     font-family: monospace;
     z-index: 10
+}
+
+@media screen and (max-width: 600px) {
+  #row1 {
+    font-size: 1rem;
+
+  }
 }
 
 h1 {
@@ -61,6 +67,13 @@ h1 {
     font-family: "JetBrains Mono", monospace;
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 }
 
 svg {
