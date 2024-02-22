@@ -93,6 +93,13 @@ p {
     margin-bottom: 5rem;
 }
 
+@media screen and (max-width: 600px) {
+  p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
 .z-20 {
     z-index: 20;
 }
