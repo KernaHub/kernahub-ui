@@ -23,7 +23,7 @@ body {
     align-content: center;
     justify-content: center;
     z-index: 30;
-    translate: 0 18.5rem;
+    translate: 0 -18.5rem;
 }
 
 .ascii {
